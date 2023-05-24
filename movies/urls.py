@@ -22,5 +22,9 @@ urlpatterns = [
     #each path with a page associated with it
     path('admin/', admin.site.urls),
     path('', views.home),
-    path('movies/', views.movies)
+    path('movies/', views.movies),
+    #movie detail being made with path having the id of the data specific page
+    path('movies/<int:id>', views.detail),
+    path('movies/add', views.add),
+    path('movies/delete/<int:id>', views.delete)
 ]

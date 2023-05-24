@@ -1,0 +1,11 @@
+MVT model
+
+M - model
+    representation of data
+
+V - view
+    accepts requests and gets data
+
+T - template 
+    visual representation of data
+
